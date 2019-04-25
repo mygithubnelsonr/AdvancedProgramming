@@ -1,0 +1,6 @@
+C:\Users\erone\source\repos\AdvancedProgramming\AdvancedProgramming\bin\Debug\AdvancedProgramming.exe.config
+C:\Users\erone\source\repos\AdvancedProgramming\AdvancedProgramming\bin\Debug\AdvancedProgramming.exe
+C:\Users\erone\source\repos\AdvancedProgramming\AdvancedProgramming\bin\Debug\AdvancedProgramming.pdb
+C:\Users\erone\source\repos\AdvancedProgramming\AdvancedProgramming\obj\Debug\Generics.csproj.CoreCompileInputs.cache
+C:\Users\erone\source\repos\AdvancedProgramming\AdvancedProgramming\obj\Debug\AdvancedProgramming.exe
+C:\Users\erone\source\repos\AdvancedProgramming\AdvancedProgramming\obj\Debug\AdvancedProgramming.pdb
