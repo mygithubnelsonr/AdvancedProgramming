@@ -43,14 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Photo.cs" />
-    <Compile Include="PhotoFilters.cs" />
-    <Compile Include="PhotoProcessor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PhotoProcessor\PhotoProcessor.csproj">
+      <Project>{c3e70d2b-9153-448a-938d-95b82f4258db}</Project>
+      <Name>PhotoProcessor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

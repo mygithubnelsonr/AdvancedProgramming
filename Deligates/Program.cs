@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Deligates
 {
-    // ToDo: create a new dll project from photo, photofiilters and photoprocessor
-    // and expand the filter
+    // Done: create a new dll project from photo, photofiilters and photoprocessor
+    // and expand the filter. works fine
     //
 
     class Program
@@ -22,6 +22,7 @@ namespace Deligates
             Action<Photo> filterHandler = filters.ApplyBrightness;
             filterHandler += filters.ApplyContrast;
             filterHandler += RemoveRedEyeFilter;
+            filterHandler += ToGrayFilter;
 
             processor.Process("photo.jpg", filterHandler);
 
@@ -35,5 +36,11 @@ namespace Deligates
         {
             Console.WriteLine("Apply RemoveRedEyes");
         }
+
+        static void ToGrayFilter(Photo photo)
+        {
+            Console.WriteLine("Apply change to Gray filter");
+        }
+
     }
 }
