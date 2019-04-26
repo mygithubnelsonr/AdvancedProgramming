@@ -28,12 +28,16 @@ namespace Generics
             //var dictionary = new GenericDictionary<string, Book>();
             //dictionary.Add("234234", new Book());
 
-            //var nu = new System.Nullable<int>(5);
+            //var number = new System.Nullable<int>(5); // Nullable is a integrated function to
             var number = new Nullable<int>(5);
 
             Console.WriteLine("has number? " + number.HasValue);
             Console.WriteLine("Value: " + number.GetValueOrDefault());
+
+#if DEBUG
+            Console.WriteLine("Press enter to close...");
             Console.ReadLine();
+#endif
         }
     }
 }

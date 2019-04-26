@@ -1,9 +1,12 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "AdvancedProgramming\Generics.csproj", "{FA5E4935-784E-4125-95B0-80477CF1AEA2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{FA5E4935-784E-4125-95B0-80477CF1AEA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deligates", "Deligates\Deligates.csproj", "{561E27DD-BD53-4C2B-AD13-02CEB4D3B9A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoProcessor", "PhotoProcessor\PhotoProcessor.csproj", "{C3E70D2B-9153-448A-938D-95B82F4258DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +18,14 @@ Global
 		{FA5E4935-784E-4125-95B0-80477CF1AEA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA5E4935-784E-4125-95B0-80477CF1AEA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA5E4935-784E-4125-95B0-80477CF1AEA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{561E27DD-BD53-4C2B-AD13-02CEB4D3B9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{561E27DD-BD53-4C2B-AD13-02CEB4D3B9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{561E27DD-BD53-4C2B-AD13-02CEB4D3B9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{561E27DD-BD53-4C2B-AD13-02CEB4D3B9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3E70D2B-9153-448A-938D-95B82F4258DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E70D2B-9153-448A-938D-95B82F4258DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E70D2B-9153-448A-938D-95B82F4258DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E70D2B-9153-448A-938D-95B82F4258DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

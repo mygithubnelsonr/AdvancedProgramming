@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Generics
 {
+    //  where is a constraint witch is a limit or restriction
+    //  (Grenze , Einschränkung)
+    //
     // where T : IComparable
     // where T : Product (class)
     // where T : struct

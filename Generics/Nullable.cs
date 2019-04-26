@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Generics
 {
+    //  where is a constraint witch is a limit or restriction
+    //  (Grenze , Einschränkung)
+    //
     public class Nullable<T> where T : struct
     {
         private Object _value;
