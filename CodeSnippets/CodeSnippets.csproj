@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{561E27DD-BD53-4C2B-AD13-02CEB4D3B9A3}</ProjectGuid>
+    <ProjectGuid>{49738D7A-6621-4896-95D9-6E2FC436147B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Deligates</RootNamespace>
-    <AssemblyName>Deligates</AssemblyName>
+    <RootNamespace>CodeSnippets</RootNamespace>
+    <AssemblyName>CodeSnippets</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,12 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\PhotoProcessor\PhotoProcessorDll.csproj">
-      <Project>{c3e70d2b-9153-448a-938d-95b82f4258db}</Project>
-      <Name>PhotoProcessorDll</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

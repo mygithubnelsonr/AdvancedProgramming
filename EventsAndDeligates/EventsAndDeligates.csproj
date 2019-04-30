@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{561E27DD-BD53-4C2B-AD13-02CEB4D3B9A3}</ProjectGuid>
+    <ProjectGuid>{AA695A27-9B5A-4A19-B01F-9DF7B34BB532}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Deligates</RootNamespace>
-    <AssemblyName>Deligates</AssemblyName>
+    <RootNamespace>EventsAndDeligates</RootNamespace>
+    <AssemblyName>EventsAndDeligates</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MailService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Video.cs" />
+    <Compile Include="VideoEncoder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\PhotoProcessor\PhotoProcessorDll.csproj">
-      <Project>{c3e70d2b-9153-448a-938d-95b82f4258db}</Project>
-      <Name>PhotoProcessorDll</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
