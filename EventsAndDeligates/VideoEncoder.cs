@@ -13,13 +13,6 @@ namespace EventsAndDeligates
         // 2. define a event based on the delegate
         // 3. raise the event
 
-
-
-        public VideoEncoder()
-        {
-
-        }
-
         public delegate void VideoEncodedEventHandler(object source, EventArgs args);
 
         public event VideoEncodedEventHandler VideoEncoded;

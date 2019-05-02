@@ -9,8 +9,11 @@ namespace EventsAndDeligates
             var video = new Video() { Title = "Video 1" };
             var videoencoder = new VideoEncoder();  // publisher
             var mailService = new MailService();    // subscriber
+            var messageService = new MailService(); // subscriber
 
             videoencoder.VideoEncoded += mailService.OnVideoEncoded;
+            videoencoder.VideoEncoded += messageService.OnVideoEncoded;
+
             videoencoder.Encode(video);
 
 #if DEBUG
@@ -20,6 +23,5 @@ namespace EventsAndDeligates
 
         }
     }
-
 
 }

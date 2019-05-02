@@ -7,6 +7,7 @@ namespace CodeSnippets
     {
         static void Main(string[] args)
         {
+            // mit ctrl-shift + F12 jump to netx error
             // code 
         }
     }
