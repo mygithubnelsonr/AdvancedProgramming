@@ -1,0 +1,18 @@
+﻿<Window x:Name="WindowSample3" x:Class="AsyncAwait.Sample3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AsyncAwait"
+        mc:Ignorable="d"
+        Title="Sample3" Height="450" Width="800" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Grid x:Name="___No_Name_Sample2" Width="800" Height="440">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="ButtonTest" Content="Start Test" Height="88" Margin="290,176" VerticalAlignment="Center" Width="220" RenderTransformOrigin="1.012,0.564" HorizontalAlignment="Center" FontWeight="Bold" FontSize="20" Click="ButtonTest_Click"/>
+        <Label x:Name="LabelStatus" Content="State" HorizontalAlignment="Left" Height="33" Margin="10,379,0,0" VerticalAlignment="Top" Width="768"/>
+        <Label x:Name="LabelSample" Content="Sample3" HorizontalAlignment="Left" Height="48" Margin="0" VerticalAlignment="Top" Width="200" FontSize="24" FontWeight="Bold" Foreground="#FF1C65E6"/>
+
+    </Grid>
+</Window>
