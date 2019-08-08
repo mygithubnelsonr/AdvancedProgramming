@@ -2,37 +2,19 @@
 
 namespace Generics
 {
+    // the book List can only used to save book objects!
+    // nothing else
     public class BookList
     {
         public void Add(Book book)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            Console.WriteLine($"Book {book.ISBN} was added to the booklist.");
         }
 
         public Book this[int index]
         {
             get { throw new NotImplementedException(); }
-        }
-    }
-
-    public class GenericList<T>
-    {
-        public void Add(T value)
-        {
-
-        }
-
-        public T this[int index]
-        {
-            get { throw new NotImplementedException(); }
-        }
-    }
-
-    public class GenericDictionary<TKey, TValue>
-    {
-        public void Add(TKey key, TValue value)
-        {
-
         }
     }
 }

@@ -9,7 +9,7 @@
         {
             // calculate and return
             product.Price = 12.45F;
-            return 12.45F;
+            return product.Price;
         }
     }
 }

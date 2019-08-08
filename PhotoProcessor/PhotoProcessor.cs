@@ -1,25 +1,12 @@
 ﻿using System;
 
-namespace Deligates
+namespace Delegates
 {
-    public class PhotoProcessor
+    public class PhotoProcessorDll
     {
-        // public delegate void PhotoFilterHandler(Photo photo);
-
-        // there are two system deligates we can use instate of crreate our own
-        //System.Action<>
-        //System.Func<>
-
-
-        public void Process(string path, Action<Photo> filterhandler)
+        public void ProcessDll(string path, Action<PhotoDll> filterhandler)
         {
-            var photo = Photo.Load(path);
-
-            //var filter = new PhotoFilters();
-            //filter.ApplyBrighttness(photo);
-            //filter.ApplyContrast(photo);
-            //filter.Resize(photo);
-
+            var photo = PhotoDll.Load(path);
             filterhandler(photo);
             photo.Save();
         }

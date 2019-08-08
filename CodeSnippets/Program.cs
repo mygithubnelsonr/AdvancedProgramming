@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace CodeSnippets
@@ -7,34 +7,47 @@ namespace CodeSnippets
     {
         static void Main(string[] args)
         {
-            // mit ctrl-shift + F12 jump to netx error
-            // code 
+
         }
     }
 
+    // mit ctrl-shift + F12 jump to next error
+
     public class CodeSnippets
     {
-        // pro  (property)
+        // eingabe pro + Tab Tab (property)
+        public int MyProperty { get; set; }
+        // dann Type und Name ändern
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        // propf    (property full)
+        // propfull + Tab Tab   (property full)
+        private int myVar;
+        public int MyProperty2
+        {
+            get { return myVar; }
+            set { myVar = value; }
+        }
+        // dann Type und Name ändern
         private int _age;
-
         public int Age
         {
             get { return _age; }
             set { _age = value; }
         }
 
+        // ct + tab tab   (ctor)
+        //      public CodeSnippets()
+        //      {
+        //
+        //      }
 
-        // c    (ctor)
         public CodeSnippets()
         {
             // cw
             Console.WriteLine();
 
-            // try  (try block)
+            // tr  (try block)
             try
             {
 
@@ -122,8 +135,5 @@ namespace CodeSnippets
             throw new NotImplementedException();
             return base.GetHashCode();
         }
-
-
     }
-
 }

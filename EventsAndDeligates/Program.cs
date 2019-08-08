@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace EventsAndDeligates
 {
@@ -15,13 +15,10 @@ namespace EventsAndDeligates
             videoencoder.VideoEncoded += messageService.OnVideoEncoded;
 
             videoencoder.Encode(video);
-
 #if DEBUG
             Console.WriteLine("press any key to finish");
             Console.ReadKey();
 #endif
-
         }
     }
-
 }

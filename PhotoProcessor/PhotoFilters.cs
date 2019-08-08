@@ -1,20 +1,20 @@
 ﻿using System;
 
-namespace Deligates
+namespace Delegates
 {
-    public class PhotoFilters
+    public class PhotoFiltersDll
     {
-        public void ApplyBrightness(Photo photo)
+        public void ApplyBrightness(PhotoDll photo)
         {
             Console.WriteLine("Apply brightness");
         }
 
-        public void ApplyContrast(Photo photo)
+        public void ApplyContrast(PhotoDll photo)
         {
             Console.WriteLine("Apply contrast");
         }
 
-        public void Resize(Photo photo)
+        public void Resize(PhotoDll photo)
         {
             Console.WriteLine("Resize phhoto");
         }

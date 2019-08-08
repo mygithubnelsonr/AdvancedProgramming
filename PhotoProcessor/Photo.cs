@@ -1,10 +1,10 @@
-﻿namespace Deligates
+﻿namespace Delegates
 {
-    public class Photo
+    public class PhotoDll
     {
-        public static Photo Load(string path)
+        public static PhotoDll Load(string path)
         {
-            return new Photo();
+            return new PhotoDll();
         }
 
         public void Save()

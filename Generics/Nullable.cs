@@ -5,7 +5,8 @@ namespace Generics
     //  where is a constraint witch is a limit or restriction
     //  (Grenze , Einschränkung)
     //
-    public class Nullable<T> where T : struct
+    //public class Nullable<T> where T : struct
+    public class Nullable<T> where T : IComparable
     {
         private Object _value;
 

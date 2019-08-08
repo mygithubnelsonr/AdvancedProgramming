@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{561E27DD-BD53-4C2B-AD13-02CEB4D3B9A3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Deligates</RootNamespace>
-    <AssemblyName>Deligates</AssemblyName>
+    <RootNamespace>Delegates</RootNamespace>
+    <AssemblyName>Delegates</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,16 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Photo.cs" />
+    <Compile Include="PhotoFilters.cs" />
+    <Compile Include="PhotoProcessorWithoutDelegate.cs" />
+    <Compile Include="PhotoProcessorWithDelegate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PhotoProcessorWithAction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PhotoProcessor\PhotoProcessorDll.csproj">
+    <ProjectReference Include="..\PhotoProcessor\7. PhotoProcessorDll.csproj">
       <Project>{c3e70d2b-9153-448a-938d-95b82f4258db}</Project>
-      <Name>PhotoProcessorDll</Name>
+      <Name>7. PhotoProcessorDll</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

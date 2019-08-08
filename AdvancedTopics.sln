@@ -2,11 +2,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{FA5E4935-784E-4125-95B0-80477CF1AEA2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Generics", "Generics\6. Generics.csproj", "{FA5E4935-784E-4125-95B0-80477CF1AEA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deligates", "Deligates\Deligates.csproj", "{561E27DD-BD53-4C2B-AD13-02CEB4D3B9A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Delegates", "Deligates\7. Delegates.csproj", "{561E27DD-BD53-4C2B-AD13-02CEB4D3B9A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoProcessorDll", "PhotoProcessor\PhotoProcessorDll.csproj", "{C3E70D2B-9153-448A-938D-95B82F4258DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. PhotoProcessorDll", "PhotoProcessor\7. PhotoProcessorDll.csproj", "{C3E70D2B-9153-448A-938D-95B82F4258DB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressions", "LambdaExpressions\LambdaExpressions.csproj", "{AF597D52-0C59-423D-8F8C-1BAEA8FF6313}"
 EndProject
